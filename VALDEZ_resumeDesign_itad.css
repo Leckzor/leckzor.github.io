@@ -1,0 +1,84 @@
+body{
+  padding: 100px 400px;
+  justify-content: center;
+  background: linear-gradient(to bottom, #006666 0%, #ffffff 100%);
+  font-size: 14px;
+  line-height: 20px;
+  color: #5d5d61;
+  font-family: 'Roboto', "sans-serif";
+
+}
+
+img {
+	margin-top: 0px;
+	width: 150px; 
+	float: right;
+	border-radius: 10px;
+	position: absolute;
+	left:850px;
+	
+
+}
+
+
+h3 {
+	margin: 0;
+}
+
+ul {
+ 	font-weight: normal;
+ 	font-size: 16px;
+
+ }
+
+.top  {
+font-size: 23px;
+margin: 1px;
+
+}
+
+.header {
+	background-color: #f2f2f2;
+	margin: none;
+	padding: 50px 50px 100px 25px;
+	border-left: 5px solid gray;
+	position: relative;
+	
+	
+}
+
+.container {
+	border:5px solid white;
+
+
+}
+
+.content {
+	background-color: white;
+	padding: 1em 2em 0em;
+
+	
+ }
+
+
+ .lastpart {
+ 	padding-bottom: 1em
+ }
+
+.nostyle {
+	list-style-type: none; 
+	padding-top: 5px;
+}
+
+.greencheck {
+	list-style-image: url("checkgreen.jpg");
+	padding-top: 5px; 
+}
+
+#fixed {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 500px;
+	left: -2px;
+}
