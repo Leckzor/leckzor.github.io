@@ -1,1 +1,0 @@
-# leckzor.github.io
