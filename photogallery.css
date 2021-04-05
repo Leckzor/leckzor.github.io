@@ -1,0 +1,97 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Poppins, sans-serif;
+}
+
+body {
+	margin: 125px 0px 125px;
+	background-color: #696969;
+}
+
+img {
+	height: 150px;
+	-webkit-filter: drop-shadow(1px 1px 1px #A9A9A9);
+  	filter: drop-shadow(2px 2px 2px #A9A9A9);
+}
+
+h2 {
+	margin: 50px 20px 50px;
+	padding: 50px 0px 0px;
+}
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0px 0px 25px;
+}
+
+.main {
+	padding:25px;
+	background-color: white;
+	margin: auto;
+	text-align: center;
+	align-items: center;
+	width: 80%;
+	-webkit-filter: drop-shadow(1px 1px 1px #A9A9A9);
+  	filter: drop-shadow(2px 2px 2px #A9A9A9);
+
+
+}
+
+.childhood {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 400px;
+}
+
+.child {
+	height: 200px;
+}
+
+.dogs {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 400px;
+	box-sizing: border-box;
+}
+
+.dog {
+	height: 200px;
+}
+
+.album {
+
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	padding: 25px;
+	margin-bottom: 400px;
+}
+
+.show {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shows{
+	height: 200px;
+}
+
+.keyboard {
+	margin-bottom: 400px;
+}
+
+.kb {
+	margin: 10px;
+	
+}
+#fixed {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 500px;
+	left: 0px;
+	border: none;
+	box-shadow: none;
+}
