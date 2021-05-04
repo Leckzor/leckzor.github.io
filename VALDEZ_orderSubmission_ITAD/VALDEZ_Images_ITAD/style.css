@@ -1,0 +1,180 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Poppins, sans-serif;
+	font-weight: 300;
+}
+
+body {
+	background-color: #F5F5F5;
+
+}
+
+h1 {
+	text-align: center;
+	font-weight: 900;
+	letter-spacing: 3px;
+}
+
+button {
+	color: #FFFFFF;
+	height: 40px;
+	margin: 10px 0px 0px 0px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+
+}
+
+.title {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.add {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.hcontact {
+	font-weight: bolder;
+}
+
+.form {
+	width: 40%;
+	box-shadow: 5px 5px 10px #555555;
+	margin: 50px auto;
+	padding: 0px;
+	border: 1px solid #555555;
+}
+
+
+
+#fname {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	height: 25px;
+	margin: 0px 0px 0px 10px;
+	padding: 2px 0px 2px 5px;
+}
+
+
+
+#cnumber {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	height: 25px;
+	margin: 0px 10px 0px 10px;
+	padding: 2px 0px 2px 5px;
+}
+
+#email {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	height: 25px;
+	margin: 0px 0px 0px 10px;
+	padding: 2px 0px 2px 5px;
+}
+
+#address {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	height: 25px;
+	
+}
+
+#specific {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid #555555;
+	padding: 10px 10px 10px 5px;
+	resize: none;
+
+}
+
+.header {
+	padding: 25px 0px;
+	border-bottom: 3px solid #555555;
+	background: rgb(215,214,228);
+	background: linear-gradient(0deg, rgba(215,214,228,1) 0%, rgba(215,214,228,1) 18%, rgba(0,195,227,1) 29%, rgba(0,212,255,1) 67%);
+	color: #F8F8FF;
+}
+
+.info, .burger, .pasta, .fries, .drinks {
+	
+	border-bottom: 2px solid #555555;
+	margin: 15px auto;
+	padding: 0px 0px 10px 50px;
+}
+
+
+
+.delivery {
+	margin: 15px 0px;
+	
+}
+
+.buttons {
+	margin: 0px 10px 25px 50px;
+}
+
+#quantity {
+	padding: 2px 10px 2px 10px;
+}
+
+
+
+.name, .cinfo, .d-address {
+	margin: 10px;
+	font-size: 20px;
+}
+
+.fa-user, .fa-address-book, .fa-home {
+	margin: 0px 5px 0px 0px;
+}
+
+.image {
+	opacity: .15;
+	z-index: -1;
+	position: absolute;
+	background: url(sample.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+.main {
+	position: relative;
+	z-index: 5;
+}
+
+.quantity {
+	
+}
+
+.submit {
+	background-color: #1B7CED;
+	margin-right: 5px;
+}
+
+.clear {
+	background-color: #FF0000; 
+}
+
+.submit:hover {
+	background-color: #1357A6;
+}
+
+.clear:hover {
+	background-color: #8E1600;
+}
+

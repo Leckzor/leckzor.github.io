@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order Form</title>
+	<style></style>
+	<link rel="stylesheet" type="text/css" href="VALDEZ_Images_ITAD/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="form">
+	
+	<div class="header">
+		<h1>BIG KAHUNA BURGERS AND PASTA</h1>
+	</div>
+	<div class="info">
+		<div class="name">
+			<label for="fname"><i class="fa fa-user"></i>Full Name</label>
+			<input type="text" name="fname" id="fname" size="50">
+		</div>
+		<div class="cinfo">
+			<h4 class="hcontact"><i class="fa fa-address-book"></i>Contact Info</h4>
+			<label for="contact">Phone No.</label>
+			<input type="text" name="cnumber" id="cnumber">
+			<label for="email">Email Address</label>
+			<input type="email" name="email" id="email" size="40">	
+		</div>
+		<div class="d-address">
+			<label for="address"><i class="fa fa-home"></i>Delivery Address</label>
+			<input type="text" name="address" id="address" size="110">
+			
+
+		</div>
+		<div>
+			<h4 class="hcontact">How to Get There</h4>
+			<textarea rows="4" cols="110" id="specific"></textarea>
+		</div>
+		<div class="delivery">
+			<input type="radio" name="mode" id="delivery">
+			<label for="delivery">Delivery</label>
+			<input type="radio" name="mode" id="pickup">
+			<label for="pickup">Pickup</label>
+		</div>
+	</div>
+	<div class="main">
+	<div class="image"> </div>
+	<div class="burger">
+		<h3 class="title">Burger</h3>
+		<h4 class="add">Type of Bun</h4>
+	<!--
+		<input type="radio" name="bun" value="white" id="white">
+		<label for="white">White</label>
+		<input type="radio" name="bun" value="wheat" id="wheat">
+		<label for="wheat">Wheat</label>
+	-->
+		<select>
+		<option value="white">White</option>
+		<option value="wheat">Wheat</option>
+		</select>
+
+		<h4 class="add">Additionals: </h4>
+		<input type="checkbox" name="option1" id="option1">
+		<label for="option1">Double Patty</label>
+		<input type="checkbox" name="option2" id="option2">
+		<label for="option2">Cheese</label>
+		<input type="checkbox" name="option3" id="option3">
+		<label for="option3">Coleslaw</label>
+		<input type="checkbox" name="option4" id="option4">
+		<label for="option4">Tomato</label>
+		<input type="checkbox" name="option5" id="option5">
+		<label for="option5">Onion</label>
+		<input type="checkbox" name="option6" id="option6">
+		<label for="option6">Cucumber</label>
+		<input type="checkbox" name="option7" id="option7">
+		<label for="option7">Bacon</label>
+
+		<h4>Quantity</h4>
+		<input type="text" name="fquantity" id="quantity" maxlength="2" size="2">
+	</div>
+
+
+	<div class="pasta">
+		<h3 class="title">Pasta</h3>
+	<!--
+		<h4>Sauce: </h4>
+		<input type="radio" name="sauce" id="carbonara">
+		<label for="carbonara">Carbonara</label>
+		<input type="radio" name="sauce" id="pesto">
+		<label for="pesto">Pesto</label>
+		<input type="radio" name="sauce" id="spaghetti">
+		<label for="spaghetti">Spaghetti</label>
+	-->
+		<h4 class="add">Sauce</h4>
+		<select id="sauce">
+		<option value="alfredo">Al Fredo</option>
+		<option value="carbonara">Carbonara</option>
+		<option value="pesto">Pesto</option>
+		<option value="spaghetti">Spaghetti</option>
+		</select>
+
+		<h4 class="add">Extras: </h4>
+		<input type="checkbox" name="extra1" id="extra1">
+		<label for="extra1">Cheese</label>
+		<input type="checkbox" name="extra2" id="extra2">
+		<label for="extra2">Sauce</label>
+		<input type="checkbox" name="extra3" id="extra3">
+		<label for="extra3">Toppings</label>
+
+		<h4>Quantity</h4>
+		<input type="text" name="pquantity" id="quantity" maxlength="2" size="2">
+	</div>
+	<div class="fries">
+		<h3 class="title">Fries</h3>
+		<h4 class="add">Flavor</h4>
+		<input type="radio" name="fflavor" value="cheese" id="cheese">
+		<label for="cheese">Cheese</label>
+		<input type="radio" name="fflavor" value="Barbeque" id="barbeque">
+		<label for="barbeque">Barbeque</label>
+		<input type="radio" name="fflavor" value="Sour Cream" id="sour cream">
+		<label for="sour cream">Sour Cream</label>
+
+		<h4 class="add">Size</h4>
+		<input type="radio" name="size" value="small" id="small">
+		<label for="small">Small</label>
+		<input type="radio" name="size" value="medium" id="medium">
+		<label for="medium">Medium</label>
+		<input type="radio" name="size" value="large" id="large">
+		<label for="large">Large</label>
+
+		<h4>Quantity</h4>
+		<input type="text" name="fquantity" id="quantity" maxlength="2" size="2">
+
+	</div>
+	<div class="drinks">
+		<h3 class="title">Drinks</h3>
+		<h4 class="add">Flavor</h4>
+		<input type="radio" name="dflavor" value="icedtea" id="icedtea">
+		<label for="icedtea">Ice Tea</label>
+		<input type="radio" name="dflavor" value="pineapple" id="pineapple">
+		<label for="pineapple">Pineapple</label>
+		<input type="radio" name="dflavor" value="Coke" id="coke">
+		<label for="coke">Coke</label>
+		<input type="radio" name="dflavor" value="sprite" id="sprite">
+		<label for="sprite">Sprite</label>
+
+		<h4 class="add">Size</h4>
+		<input type="radio" name="size" value="small" id="small">
+		<label for="small">Small</label>
+		<input type="radio" name="size" value="medium" id="medium">
+		<label for="medium">Medium</label>
+		<input type="radio" name="size" value="large" id="large">
+		<label for="large">Large</label>
+
+		<h4>Quantity</h4>
+		<input type="text" name="fquantity" id="quantity" maxlength="2" size="2">
+	</div>
+	</div>
+	
+
+	<div class="buttons">
+		<button class="submit">
+			SUBMIT
+		</button>
+		<button class="clear">
+			CLEAR
+		</button>
+	</div>
+</div>
+
+</body>
+</html>
